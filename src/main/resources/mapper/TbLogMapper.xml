@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.framework.mapper.TbLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.framework.entity.TbLog">
+    <result column="id" property="id" />
+        <result column="oper_modul" property="operModul" />
+        <result column="oper_type" property="operType" />
+        <result column="oper_desc" property="operDesc" />
+        <result column="oper_requ_param" property="operRequParam" />
+        <result column="oper_resp_param" property="operRespParam" />
+        <result column="oper_user_id" property="operUserId" />
+        <result column="oper_user_name" property="operUserName" />
+        <result column="oper_method" property="operMethod" />
+        <result column="oper_uri" property="operUri" />
+        <result column="oper_ip" property="operIp" />
+        <result column="oper_create_time" property="operCreateTime" />
+        <result column="type" property="type" />
+    </resultMap>
+
+</mapper>
